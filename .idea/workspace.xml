@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/h02/HalloRocDev2.java" afterDir="false" />
+    <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="H2 spul">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h02/Naam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h02/Naamachter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h02/Zie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h02/HalloRocDev2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
@@ -35,11 +40,39 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\sande\Documents\GitHub\inleiding-java\src" />
       <recent name="C:\Users\sande\Documents\GitHub\inleiding-java\out\production\inleiding-java\h02" />
+      <recent name="C:\Users\sande\Documents\GitHub\inleiding-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HalloRocDev2">
+  <component name="RunManager" selected="Applet.Zie (1)">
+    <configuration name="Naam" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h02.Naam" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Naamachter" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h02.Naamachter" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zie (1)" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h02.Zie" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Zie" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Zie" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HalloRocDev" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h01.HalloRocDev" />
       <module name="inleiding-java" />
@@ -53,32 +86,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HalloRocDev2" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="h02.HalloRocDev2" />
+    <configuration name="Naam" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="h021.Naam" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Naamachter" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="h02.Naamachter" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Show" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Zie" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HalloRocDev2" />
+      <item itemvalue="Applet.Naam" />
+      <item itemvalue="Application.Naamachter" />
+      <item itemvalue="Application.Naam" />
+      <item itemvalue="Application.Show" />
       <item itemvalue="Application.HalloRocDev" />
+      <item itemvalue="Applet.Naamachter" />
+      <item itemvalue="Applet.Zie" />
+      <item itemvalue="Applet.Zie (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Zie (1)" />
+        <item itemvalue="Applet.Zie" />
+        <item itemvalue="Applet.Naamachter" />
+        <item itemvalue="Applet.Naam" />
         <item itemvalue="Application.HalloRocDev" />
       </list>
     </recent_temporary>
@@ -94,41 +149,62 @@
       <workItem from="1599476456687" duration="91000" />
       <workItem from="1599476567453" duration="1214000" />
       <workItem from="1599478355508" duration="1707000" />
-      <workItem from="1599480813127" duration="2811000" />
+      <workItem from="1599480813127" duration="2920000" />
+      <workItem from="1599486648278" duration="3265000" />
     </task>
+    <task id="LOCAL-00001" summary="H2 spul">
+      <created>1599486608933</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599486608933</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="H2 spul" />
+    <option name="LAST_COMMIT_MESSAGE" value="H2 spul" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599486518226">
+    <state x="414" y="61" width="1092" height="979" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599489878062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599486518226" />
+    <state x="414" y="61" width="1092" height="979" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599489878062" />
+    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1599489653310">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599489653310" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599476663075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599476663075" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1599486436745">
+    <state width="1340" height="265" key="GridCell.Tab.0.bottom" timestamp="1599489884354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599486436745" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1599486436745">
+    <state width="1340" height="265" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599489884354" />
+    <state width="1340" height="265" key="GridCell.Tab.0.center" timestamp="1599489884353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599486436745" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1599486436745">
+    <state width="1340" height="265" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599489884353" />
+    <state width="1340" height="265" key="GridCell.Tab.0.left" timestamp="1599489884353">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599486436745" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1599486436745">
+    <state width="1340" height="265" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599489884353" />
+    <state width="1340" height="265" key="GridCell.Tab.0.right" timestamp="1599489884354">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599486436745" />
+    <state width="1340" height="265" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599489884354" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1599485868126">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599485868126" />
+    <state x="342" y="204" key="new project wizard" timestamp="1599488865459">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="204" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599488865459" />
   </component>
 </project>
