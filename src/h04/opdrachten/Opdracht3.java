@@ -13,10 +13,13 @@ public class Opdracht3 extends Applet {
         super.paint(g);
         Graphics2D g2 = (Graphics2D) g;
         g2.setStroke(new BasicStroke(7));
-        g.setColor(Color.BLACK);
+        g.setColor(Color.black);
         g.drawLine(100, 20, 100, 200);
-        g.fillRect();
-        g.fillRect();
-        g.fillRect();
+        g.setColor(Color.red);
+        g.fillRect(105, 20, 120, 30);
+        g.setColor(Color.white);
+        g.fillRect(105, 50, 120, 30);
+        g.setColor(Color.blue);
+        g.fillRect(105, 80, 120, 30);
     }
 }
