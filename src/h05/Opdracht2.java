@@ -1,12 +1,11 @@
 package h05;
 
-import com.sun.xml.internal.ws.util.xml.CDATA;
 
 import java.awt.*;
 import java.applet.*;
 
 public class Opdracht2 extends Applet {
-    //decleratie
+    //declaratie
     int Valerie;
     int ValerieGewicht;
     int Jeroen;
@@ -26,7 +25,6 @@ public class Opdracht2 extends Applet {
     }
 
     public void paint(Graphics g) {
-      // g.drawString("" + Valerie, 200,20);
         setBackground(Color.WHITE);
         super.paint(g);
         Graphics2D g2 = (Graphics2D) g;
@@ -48,7 +46,7 @@ public class Opdracht2 extends Applet {
         g.fillRect(150, 270, Width, -JeroenGewicht);
         g.setColor(Color.blue);
         g.fillRect(250, 270, Width, -HansGewicht);
-        g.setColor(Color.orange);
+        //g.setColor(Color.orange);
         g.drawString("Valerie", 45, 285);
         g.setColor(Color.red);
         g.drawString("Jeroen", 145, 285);
