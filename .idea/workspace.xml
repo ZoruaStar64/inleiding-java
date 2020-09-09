@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:upstream" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="" />
+    <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="H5 opdracht 2 van java op laptop gefixt met Rick Dorr">
+      <change afterPath="$PROJECT_DIR$/src/h06/Opdracht1h6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,6 +202,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Applet.LijnenEnRechthoeken" />
       <item itemvalue="Applet.ElipsEnBoog" />
@@ -270,17 +309,36 @@
       <option name="project" value="LOCAL" />
       <updated>1599647933572</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="H5 opdracht 2 van java op laptop gefixt met Rick Dorr">
+      <created>1599657225690</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1599657225690</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="H2 spul" />
     <MESSAGE value="H5 opdracht 1 van java" />
     <MESSAGE value="H5 opdracht 2 van java" />
-    <option name="LAST_COMMIT_MESSAGE" value="H5 opdracht 2 van java" />
+    <MESSAGE value="H5 opdracht 2 van java op laptop gefixt met Rick Dorr" />
+    <option name="LAST_COMMIT_MESSAGE" value="H5 opdracht 2 van java op laptop gefixt met Rick Dorr" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599568660810">
@@ -295,21 +353,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599476663075" />
-    <state width="1340" height="117" key="GridCell.Tab.0.bottom" timestamp="1599647980968">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1342" height="36" key="GridCell.Tab.0.bottom" timestamp="1599657450026">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1342" height="36" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599657450026" />
     <state width="1340" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599647980968" />
-    <state width="1340" height="117" key="GridCell.Tab.0.center" timestamp="1599647980968">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1342" height="36" key="GridCell.Tab.0.center" timestamp="1599657450026">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1342" height="36" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599657450026" />
     <state width="1340" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599647980968" />
-    <state width="1340" height="117" key="GridCell.Tab.0.left" timestamp="1599647980968">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1342" height="36" key="GridCell.Tab.0.left" timestamp="1599657450026">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1342" height="36" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599657450026" />
     <state width="1340" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599647980968" />
-    <state width="1340" height="117" key="GridCell.Tab.0.right" timestamp="1599647980968">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1342" height="36" key="GridCell.Tab.0.right" timestamp="1599657450026">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state width="1342" height="36" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599657450026" />
     <state width="1340" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599647980968" />
     <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1599573704308">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -335,9 +397,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599555532974" />
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599647935875">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="512" y="204" key="Vcs.Push.Dialog.v2" timestamp="1599657230095">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="512" y="204" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599657230095" />
     <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599647935875" />
     <state x="342" y="204" key="new project wizard" timestamp="1599488865459">
       <screen x="0" y="0" width="1920" height="1040" />
