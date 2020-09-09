@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/h04/opdrachten/PraktijkOpdracht.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +43,7 @@
       <recent name="C:\Users\sande\Documents\GitHub\inleiding-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.PraktijkOpdracht">
+  <component name="RunManager" selected="Applet.Opdracht2">
     <configuration name="Bogen" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.Bogen" />
       <module name="inleiding-java" />
@@ -177,19 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Applet.LijnenEnRechthoeken" />
       <item itemvalue="Applet.ElipsEnBoog" />
@@ -204,11 +190,11 @@
       <item itemvalue="Applet.Naam" />
       <item itemvalue="Applet.Naamachter" />
       <item itemvalue="Applet.Zie (1)" />
+      <item itemvalue="Applet.Opdracht7" />
+      <item itemvalue="Applet.PraktijkOpdracht" />
       <item itemvalue="Application.LijnenEnRechthoeken" />
       <item itemvalue="Application.Naamachter" />
       <item itemvalue="Application.HalloRocDev" />
-      <item itemvalue="Applet.Opdracht7" />
-      <item itemvalue="Applet.PraktijkOpdracht" />
     </list>
     <recent_temporary>
       <list>
@@ -234,7 +220,10 @@
       <workItem from="1599486648278" duration="4440000" />
       <workItem from="1599550115334" duration="711000" />
       <workItem from="1599550849078" duration="3627000" />
-      <workItem from="1599554766037" duration="9835000" />
+      <workItem from="1599554766037" duration="10459000" />
+      <workItem from="1599573820634" duration="220000" />
+      <workItem from="1599574567627" duration="419000" />
+      <workItem from="1599595471285" duration="433000" />
     </task>
     <task id="LOCAL-00001" summary="H2 spul">
       <created>1599486608933</created>
@@ -280,38 +269,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599476663075" />
-    <state width="1340" height="831" key="GridCell.Tab.0.bottom" timestamp="1599571495545">
+    <state width="1340" height="831" key="GridCell.Tab.0.bottom" timestamp="1599595906845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="831" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599571495545" />
-    <state width="1340" height="831" key="GridCell.Tab.0.center" timestamp="1599571495545">
+    <state width="1340" height="831" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599595906845" />
+    <state width="1340" height="831" key="GridCell.Tab.0.center" timestamp="1599595906844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="831" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599571495545" />
-    <state width="1340" height="831" key="GridCell.Tab.0.left" timestamp="1599571495545">
+    <state width="1340" height="831" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599595906844" />
+    <state width="1340" height="831" key="GridCell.Tab.0.left" timestamp="1599595906844">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="831" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599571495545" />
-    <state width="1340" height="831" key="GridCell.Tab.0.right" timestamp="1599571495545">
+    <state width="1340" height="831" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599595906844" />
+    <state width="1340" height="831" key="GridCell.Tab.0.right" timestamp="1599595906845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="831" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599571495545" />
-    <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1599568813294">
+    <state width="1340" height="831" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599595906845" />
+    <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1599573704308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599568813294" />
-    <state width="1340" height="327" key="GridCell.Tab.1.center" timestamp="1599568813294">
+    <state width="1340" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599573704308" />
+    <state width="1340" height="327" key="GridCell.Tab.1.center" timestamp="1599573704307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599568813294" />
-    <state width="1340" height="327" key="GridCell.Tab.1.left" timestamp="1599568813294">
+    <state width="1340" height="327" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599573704307" />
+    <state width="1340" height="327" key="GridCell.Tab.1.left" timestamp="1599573704307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599568813294" />
-    <state width="1340" height="327" key="GridCell.Tab.1.right" timestamp="1599568813294">
+    <state width="1340" height="327" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599573704307" />
+    <state width="1340" height="327" key="GridCell.Tab.1.right" timestamp="1599573704308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599568813294" />
+    <state width="1340" height="327" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599573704308" />
     <state x="700" y="223" key="RollbackChangesDialog" timestamp="1599553345107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
