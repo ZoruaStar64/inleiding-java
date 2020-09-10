@@ -16,7 +16,6 @@ public class Opdracht4 extends Applet {
         g.setColor(Color.BLACK);
         g.drawLine(30, 20, 30, 270);
         g.drawLine(30,270, 300,270);
-        super.paint(g);
         g2.setStroke(new BasicStroke(1));
         g.drawLine(30,20,300, 20);
         g.drawLine(30,70,300,70);
