@@ -46,7 +46,7 @@ public class Opdracht2 extends Applet {
         g.fillRect(150, 270, Width, -JeroenGewicht);
         g.setColor(Color.blue);
         g.fillRect(250, 270, Width, -HansGewicht);
-        //g.setColor(Color.orange);
+        g.setColor(Color.orange);
         g.drawString("Valerie", 45, 285);
         g.setColor(Color.red);
         g.drawString("Jeroen", 145, 285);
