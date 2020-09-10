@@ -41,11 +41,11 @@ public class Opdracht2 extends Applet {
         g.drawLine(30, 220, 300, 220);
         //Staven van kinderen
         g.setColor(Color.orange);
-        g.fillRect(50, 270-ValerieGewicht, Width, -ValerieGewicht); //-100
+        g.fillRect(50, 270 - ValerieGewicht, Width, ValerieGewicht); //-100
         g.setColor(Color.red);
-        g.fillRect(150, 270-JeroenGewicht, Width, -JeroenGewicht);
+        g.fillRect(150, 270 - JeroenGewicht, Width, JeroenGewicht);
         g.setColor(Color.blue);
-        g.fillRect(250, 270-HansGewicht, Width, -HansGewicht);
+        g.fillRect(250, 270 - HansGewicht, Width, HansGewicht);
         g.setColor(Color.orange);
         g.drawString("Valerie", 45, 285);
         g.setColor(Color.red);
