@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/h06/Opdracht2h6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h06/Opdracht3h6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h05/Opdracht2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h05/Opdracht2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h06/Opdracht1h6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h06/Opdracht1h6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
       <recent name="C:\Users\sande\Documents\GitHub\inleiding-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.Opdracht2 (1)">
+  <component name="RunManager" selected="Applet.Opdracht2h6">
     <configuration name="Bogen" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.Bogen" />
       <module name="inleiding-java" />
@@ -96,6 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Opdracht1h6" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h06.Opdracht1h6" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Opdracht2 (1)" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h05.Opdracht2" />
       <module name="inleiding-java" />
@@ -105,6 +114,13 @@
     </configuration>
     <configuration name="Opdracht2" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.opdrachten.Opdracht2" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Opdracht2h6" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h06.Opdracht2h6" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,13 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opdracht7" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h04.opdrachten.Opdracht7" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PraktijkOpdracht" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h04.opdrachten.PraktijkOpdracht" />
       <module name="inleiding-java" />
@@ -154,13 +163,6 @@
     </configuration>
     <configuration name="Test" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.Test" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Zie (1)" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h02.Zie" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,21 +206,21 @@
       <item itemvalue="Applet.Test" />
       <item itemvalue="Applet.Naam" />
       <item itemvalue="Applet.Naamachter" />
-      <item itemvalue="Applet.Zie (1)" />
-      <item itemvalue="Applet.Opdracht7" />
       <item itemvalue="Applet.PraktijkOpdracht" />
       <item itemvalue="Applet.Opdracht1 (1)" />
       <item itemvalue="Applet.Opdracht2 (1)" />
       <item itemvalue="Application.LijnenEnRechthoeken" />
       <item itemvalue="Application.Naamachter" />
+      <item itemvalue="Applet.Opdracht1h6" />
+      <item itemvalue="Applet.Opdracht2h6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.Opdracht2h6" />
+        <item itemvalue="Applet.Opdracht1h6" />
         <item itemvalue="Applet.Opdracht2 (1)" />
         <item itemvalue="Applet.Opdracht1 (1)" />
         <item itemvalue="Applet.PraktijkOpdracht" />
-        <item itemvalue="Applet.Opdracht7" />
-        <item itemvalue="Applet.Zie (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +246,7 @@
       <workItem from="1599634845569" duration="7386000" />
       <workItem from="1599649925504" duration="261000" />
       <workItem from="1599719785793" duration="967000" />
-      <workItem from="1599720816695" duration="1962000" />
+      <workItem from="1599720816695" duration="5353000" />
     </task>
     <task id="LOCAL-00001" summary="H2 spul">
       <created>1599486608933</created>
@@ -302,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599721370219</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="H5 opdracht 2 van java synchroon maken tussen laptop en desktop (hopelijk fixt dit het voor eens en altijd)">
+      <created>1599722845495</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1599722845495</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,37 +321,38 @@
     <MESSAGE value="H2 spul" />
     <MESSAGE value="H5 opdracht 1 van java" />
     <MESSAGE value="H5 opdracht 2 van java" />
-    <option name="LAST_COMMIT_MESSAGE" value="H5 opdracht 2 van java" />
+    <MESSAGE value="H5 opdracht 2 van java synchroon maken tussen laptop en desktop (hopelijk fixt dit het voor eens en altijd)" />
+    <option name="LAST_COMMIT_MESSAGE" value="H5 opdracht 2 van java synchroon maken tussen laptop en desktop (hopelijk fixt dit het voor eens en altijd)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599568660810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599568660810" />
-    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1599721369273">
+    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1599722844717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599721369273" />
+    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599722844717" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599721015416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599721015416" />
-    <state width="1340" height="117" key="GridCell.Tab.0.bottom" timestamp="1599722743690">
+    <state width="1340" height="117" key="GridCell.Tab.0.bottom" timestamp="1599728737814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599722743690" />
-    <state width="1340" height="117" key="GridCell.Tab.0.center" timestamp="1599722743690">
+    <state width="1340" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599728737814" />
+    <state width="1340" height="117" key="GridCell.Tab.0.center" timestamp="1599728737814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599722743690" />
-    <state width="1340" height="117" key="GridCell.Tab.0.left" timestamp="1599722743690">
+    <state width="1340" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599728737814" />
+    <state width="1340" height="117" key="GridCell.Tab.0.left" timestamp="1599728737814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599722743690" />
-    <state width="1340" height="117" key="GridCell.Tab.0.right" timestamp="1599722743690">
+    <state width="1340" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599728737814" />
+    <state width="1340" height="117" key="GridCell.Tab.0.right" timestamp="1599728737814">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599722743690" />
+    <state width="1340" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599728737814" />
     <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1599573704308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -371,10 +381,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599555532974" />
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599722752333">
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1599722849577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599722752333" />
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599722849577" />
     <state x="342" y="204" key="new project wizard" timestamp="1599488865459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
