@@ -16,7 +16,7 @@ public class Opdracht1h8 extends Applet {
         ok = new Button("Ok");
         ok.addActionListener(new KnopListener());
         reset = new Button("Reset");
-        reset.addActionListener(new KnopListener());
+        reset.addActionListener(new KnopReset());
         add(tekstvak);
         add(ok);
         add(reset);
@@ -34,8 +34,15 @@ public class Opdracht1h8 extends Applet {
     class KnopListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             s = tekstvak.getText();
-            tekstvak.setText("");
+            //tekstvak.setText("");
             repaint();
+        }
+    }
+    class KnopReset implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+        tekstvak.setText("");
+
+        repaint();
         }
     }
 }
