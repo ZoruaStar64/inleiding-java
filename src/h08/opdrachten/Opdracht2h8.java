@@ -18,6 +18,7 @@ public class Opdracht2h8 extends Applet {
     int teller2;
     int teller3;
     int teller4;
+    int totaal;
 
     public void init() {
         SchermMan = "";
@@ -44,6 +45,7 @@ public class Opdracht2h8 extends Applet {
         teller2 = 0;
         teller3 = 0;
         teller4 = 0;
+        totaal = 0;
     }
 
     public void paint(Graphics g) {
@@ -51,6 +53,10 @@ public class Opdracht2h8 extends Applet {
         g.drawString("Aantal vrouwen = " + SchermVrouw, 50, 75 );
         g.drawString("Aantal man leerlingen = " + SchermLM, 50, 90 );
         g.drawString("Aantal vrouw leerlingen = " + SchermLV, 50, 105 );
+        totaal = teller1 + teller2 + teller3 + teller4;
+        g.drawString("Totaal = " + totaal, 50,120);
+        //Kan ook door in de drawString totaal juist totaal++ te maken
+        //en het totaal in initialisatie -1 te maken
     }
 
     class KnopMan implements ActionListener {
