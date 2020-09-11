@@ -47,10 +47,6 @@ public class Opdracht2h8 extends Applet {
     }
 
     public void paint(Graphics g) {
-        teller1++;
-        teller2++;
-        teller3++;
-        teller4++;
         g.drawString("Aantal mannen = " + SchermMan, 50, 60 );
         g.drawString("Aantal vrouwen = " + SchermVrouw, 50, 75 );
         g.drawString("Aantal man leerlingen = " + SchermLM, 50, 90 );
@@ -59,24 +55,28 @@ public class Opdracht2h8 extends Applet {
 
     class KnopMan implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            teller1++;
             SchermMan = "" + teller1;
             repaint();
         }
     }
     class KnopVrouw implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            teller2++;
             SchermVrouw = "" + teller2;
             repaint();
         }
     }
     class KnopLM implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            teller3++;
             SchermLM = "" + teller3;
             repaint();
         }
     }
     class KnopLV implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            teller4++;
             SchermLV = "" + teller4;
             repaint();
         }
