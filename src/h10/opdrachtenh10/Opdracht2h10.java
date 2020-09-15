@@ -23,7 +23,7 @@ public class Opdracht2h10 extends Applet {
         add(label);
         add(tekstvak);
         getal = 0;
-        getalHoogst = 0;
+        getalHoogst = -2147483648;
         getalLaagst = 2147483647;
     }
 
