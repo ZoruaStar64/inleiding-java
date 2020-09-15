@@ -12,7 +12,7 @@ public class KnopEnTextTest extends Applet {
     public void init() {
         tekstvak = new TextField("ooh ooh ah ah", 30);
         knop = new Button("Ok");
-        knop.addActionListener( new KnopListener() );
+       knop.addActionListener( new KnopListener() );
         add(tekstvak);
         add(knop);
     }
