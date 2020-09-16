@@ -62,22 +62,6 @@ public class Praktijkopdrachth10 extends Applet {
                 tekst = "Onvoldoende u bent niet geslaagd";
                 tekst2 = "Als het gemiddelde boven de 10 komt vul dan uw getallen in met 1-10";
             }
-            if  (totaal > 5.9  && !(totaal > 8)) {
-                tekst = "Het gemiddelde resultaat = Voldoende";
-            }
-
-            else {
-                tekst = "Onvoldoende u bent niet geslaagd";
-                tekst2 = "Als het gemiddelde boven de 10 komt vul dan uw getallen in met 1-10";
-            }
-            if  (totaal > 7.9  && !(totaal > 10.1)) {
-                tekst = "Het gemiddelde resultaat = Goed";
-            }
-
-            else {
-                tekst = "Onvoldoende u bent niet geslaagd";
-                tekst2 = "Als het gemiddelde boven de 10 komt vul dan uw getallen in met 1-10";
-            }
             repaint();
         }
     }
