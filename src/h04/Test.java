@@ -10,6 +10,6 @@ public class Test extends Applet {
         super.paint(g);
         Graphics2D g2 = (Graphics2D) g;
         g2.setStroke(new BasicStroke(3));
-
+        g.drawRect(50, 50, 250, 250);
     }
 }
