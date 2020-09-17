@@ -12,11 +12,13 @@ public class Opdracht1h11 extends Applet {
     public void paint(Graphics g) {
         int teller;
         int y = 0;
+        int x = 0;
 
         for (teller = 0; teller < 11; teller++) {
+            x += 20;
             y += 20;
-            g.drawLine(20, y, 300, y);
-            g.drawString("" + teller, 305, y);
+            g.drawLine(x, 20, x, 275);
+            g.drawString("" + teller, x, 20);
         }
     }
 }
