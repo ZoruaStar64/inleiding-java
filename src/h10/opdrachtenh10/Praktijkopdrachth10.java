@@ -39,11 +39,15 @@ public class Praktijkopdrachth10 extends Applet {
 
 
     public void paint(Graphics g) {
+        //g.setFont maakt een nieuwe font aan (de size verandert juist de grootte van de tekst
         g.setFont(new Font("TimesRoman",Font.BOLD,12));
         g.setColor(Color.black);
-        g.drawString(tekst,12,100);
-        g.drawString(tekst2,12,130);
-        g.drawString("Uw Gemiddelde = " +totaal, 12,60);
+        //deze lijn hieronder laat het gemiddelde resultaat zien van de ingevulde getallen
+        g.drawString(tekst,12,120);
+        g.drawString("Voer 3 cijfers in de tekstvakken",12,80);
+        g.drawString("De tekstvakken zijn op volgorde van de tekst naast hun",12,100);
+        g.drawString("U kan ook kommagetallen invoeren", 12,60);
+        g.drawString("Uw Gemiddelde = " +totaal, 12,40);
     }
     class TekstvakListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
@@ -54,15 +58,28 @@ public class Praktijkopdrachth10 extends Applet {
             Cijfer2 = Double.parseDouble( ingave2);
             Cijfer3 = Double.parseDouble( ingave3);
             totaal = (Cijfer1 + Cijfer2 + Cijfer3) / 3;
-            if  (totaal > 7.9  && !(totaal > 10.1)) {
+            if  (totaal > 7.9 && totaal < 10.1) {
                 tekst = "Het gemiddelde resultaat = Goed";
             }
 
+            else if (totaal > 5.9 && totaal < 8  ) {
+                tekst = "Het gemiddelde resultaat = Voldoende";
+            }
+            else if (totaal > 4.9 && totaal < 6  ) {
+                tekst = "Het gemiddelde resultaat = Matig";
+            }
+            else if (totaal > 3.9 && totaal < 5  ) {
+                tekst = "Het gemiddelde resultaat = Onvoldoende";
+            }
+            else if (totaal > 0.9 && totaal < 4  ) {
+                tekst = "Het gemiddelde resultaat = Slecht";
+            }
             else {
-                tekst = "Onvoldoende u bent niet geslaagd";
-                tekst2 = "Als het gemiddelde boven de 10 komt vul dan uw getallen in met 1-10";
+                tekst = "Getal is buiten bereik zorg ervoor dat het gemiddelde tussen de 1-10 is";
             }
             repaint();
         }
     }
 }
+//(totaal > 7.9)
+//tekst2 = "Als het gemiddelde boven de 10 komt vul dan uw getallen in met 1-10";
