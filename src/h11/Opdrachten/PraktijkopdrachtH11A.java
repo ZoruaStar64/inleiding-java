@@ -6,7 +6,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class PraktijkopdrachtH11 extends Applet {
+public class PraktijkopdrachtH11A extends Applet {
     TextField tekstvak;
     Label label;
     Button button;
