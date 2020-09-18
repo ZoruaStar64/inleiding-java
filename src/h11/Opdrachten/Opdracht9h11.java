@@ -154,4 +154,3 @@ public class Opdracht9h11 extends Applet {
         }
     }
 }
-

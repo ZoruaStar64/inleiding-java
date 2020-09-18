@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/h11/Opdrachten/PraktijkopdrachtH11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h11/Test/Opslag9H11codeNest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h11/Test/OpslagOpdracht9H11code.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h11/Opdrachten/Opdracht9h11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Opdrachten/Opdracht9h11.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
       <recent name="C:\Users\sande\Documents\GitHub\inleiding-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.PraktijkopdrachtH11">
+  <component name="RunManager" selected="Applet.Opdracht9h11">
     <configuration name="Bogen" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.Bogen" />
       <module name="inleiding-java" />
@@ -103,13 +105,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Opdracht3h11" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Opdrachten.Opdracht3h11" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Opdracht4" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.opdrachten.Opdracht4" />
       <module name="inleiding-java" />
@@ -147,6 +142,13 @@
     </configuration>
     <configuration name="Opdracht9h11" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h11.Opdrachten.Opdracht9h11" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OpslagOpdracht9H11code" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h11.Test.OpslagOpdracht9H11code" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,21 +206,21 @@
       <item itemvalue="Applet.Test" />
       <item itemvalue="Applet.Naam" />
       <item itemvalue="Applet.Naamachter" />
-      <item itemvalue="Application.LijnenEnRechthoeken" />
-      <item itemvalue="Application.Naamachter" />
       <item itemvalue="Applet.Opdracht7h11" />
       <item itemvalue="Applet.Opdracht8h11" />
       <item itemvalue="Applet.Opdracht9h11" />
-      <item itemvalue="Applet.Opdracht3h11" />
       <item itemvalue="Applet.PraktijkopdrachtH11" />
+      <item itemvalue="Applet.OpslagOpdracht9H11code" />
+      <item itemvalue="Application.LijnenEnRechthoeken" />
+      <item itemvalue="Application.Naamachter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.PraktijkopdrachtH11" />
         <item itemvalue="Applet.Opdracht9h11" />
+        <item itemvalue="Applet.OpslagOpdracht9H11code" />
+        <item itemvalue="Applet.PraktijkopdrachtH11" />
         <item itemvalue="Applet.Opdracht8h11" />
         <item itemvalue="Applet.Opdracht7h11" />
-        <item itemvalue="Applet.Opdracht3h11" />
       </list>
     </recent_temporary>
   </component>
@@ -250,6 +252,8 @@
       <workItem from="1600065969692" duration="13578000" />
       <workItem from="1600151942853" duration="14960000" />
       <workItem from="1600245225365" duration="4734000" />
+      <workItem from="1600409735981" duration="7725000" />
+      <workItem from="1600420133947" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="H2 spul">
       <created>1599486608933</created>
@@ -502,22 +506,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599721015416" />
-    <state width="1340" height="117" key="GridCell.Tab.0.bottom" timestamp="1600351849724">
+    <state width="1340" height="117" key="GridCell.Tab.0.bottom" timestamp="1600421732308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600351849724" />
-    <state width="1340" height="117" key="GridCell.Tab.0.center" timestamp="1600351849724">
+    <state width="1340" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600421732308" />
+    <state width="1340" height="117" key="GridCell.Tab.0.center" timestamp="1600421732307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600351849724" />
-    <state width="1340" height="117" key="GridCell.Tab.0.left" timestamp="1600351849724">
+    <state width="1340" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600421732307" />
+    <state width="1340" height="117" key="GridCell.Tab.0.left" timestamp="1600421732307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600351849724" />
-    <state width="1340" height="117" key="GridCell.Tab.0.right" timestamp="1600351849724">
+    <state width="1340" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600421732307" />
+    <state width="1340" height="117" key="GridCell.Tab.0.right" timestamp="1600421732307">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600351849724" />
+    <state width="1340" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600421732307" />
     <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1599573704308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
