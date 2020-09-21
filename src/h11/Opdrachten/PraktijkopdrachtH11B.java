@@ -13,6 +13,7 @@ public class PraktijkopdrachtH11B extends Applet {
     int ingave2;
     int ingave1 = 1;
 
+
     public void init() {
         label = new Label("Klik op Ok voor de volgende tafel.");
         button = new Button("Ok");

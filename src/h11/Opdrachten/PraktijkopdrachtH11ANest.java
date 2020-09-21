@@ -1,9 +1,9 @@
-package h11.Test;
+package h11.Opdrachten;
 
 import java.applet.Applet;
 import java.awt.*;
 
-public class Opslag9H11codeNest extends Applet {
+public class PraktijkopdrachtH11ANest extends Applet {
 
     public void init() {
     }
@@ -15,16 +15,14 @@ public class Opslag9H11codeNest extends Applet {
         g.drawRect(50, 50, 240, 240);
         int width = 30;
         int height = 30;
-        int x;
-        int y;
-        y = 50;
-        x = 50;
-        int loop;
+        int x = 50, y = 50;
 
-        for (loop = 0; loop < 8; loop++) {
+        for (int loop = 0; loop < 8; loop++) {
+            x = 50;
             for (int kolom = 0; kolom < 8; kolom++) {
-
-                y += (height * loop);
+                if (loop == 0 || loop == 2 || loop == 4 || loop == 6) {
+                    y = (height * loop + 50);
+                }
                 if (kolom == 0 || kolom == 2 || kolom == 4 || kolom == 6) {
                     g.setColor(Color.black);
                     g.fillRect(x, y, width, height);
@@ -35,8 +33,12 @@ public class Opslag9H11codeNest extends Applet {
                 x += width;
             }
 //tweede
+
+
             x = 50;
-            y += height;
+            if (loop == 1 || loop == 3 || loop == 5 || loop == 7) {
+                y = (height * loop + 50);
+            }
             for (int kolom = 0; kolom < 8; kolom++) {
                 if (kolom == 0 || kolom == 2 || kolom == 4 || kolom == 6) {
                     g.setColor(Color.white);
