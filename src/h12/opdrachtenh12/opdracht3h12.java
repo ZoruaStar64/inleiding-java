@@ -6,11 +6,11 @@ import java.awt.event.*;
 import java.util.*;
 
 public class opdracht3h12 extends Applet {
-    public TextField[] a;
+    TextField[] a;
     int[] result;
+    int teller = 0;
     Button b;
     String[] s;
-    int teller = 0;
 
     public void init() {
         result = new int[5];
