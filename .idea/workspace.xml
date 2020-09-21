@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/h12/h12test/arraytest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht1h12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h12/h12test/maximumarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h12/h12test/sorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h12/h12test/zoeken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht2h12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h11/Opdrachten/PraktijkopdrachtH11B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Opdrachten/PraktijkopdrachtH11B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h11/Test/Opslag9H11codeNest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Test/Opslag9H11codeNest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h12/h12test/arraytest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h12/h12test/arraytest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht1h12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht1h12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,16 +54,9 @@
       <recent name="C:\Users\sande\Documents\GitHub\inleiding-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.PraktijkopdrachtH11A...">
+  <component name="RunManager" selected="Applet.opdracht2h12">
     <configuration name="Bogen" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.Bogen" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DrilboorDing" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CooleDingenDieIkPerongelukInJavaMaakte.DrilboorDing" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,27 +132,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PraktijkopdrachtH11A" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Opdrachten.PraktijkopdrachtH11A" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PraktijkopdrachtH11A..." type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Opdrachten.PraktijkopdrachtH11ANest" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PraktijkopdrachtH11B" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h11.Opdrachten.PraktijkopdrachtH11B" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.Test" />
       <module name="inleiding-java" />
@@ -167,6 +141,34 @@
     </configuration>
     <configuration name="arraytest" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h12.h12test.arraytest" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opdracht1h12" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.opdrachtenh12.opdracht1h12" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opdracht2h12" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.opdrachtenh12.opdracht2h12" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sorting" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.h12test.sorting" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="zoeken" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.h12test.zoeken" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,21 +214,21 @@
       <item itemvalue="Applet.Test" />
       <item itemvalue="Applet.Naam" />
       <item itemvalue="Applet.Naamachter" />
-      <item itemvalue="Applet.PraktijkopdrachtH11A" />
-      <item itemvalue="Applet.PraktijkopdrachtH11B" />
-      <item itemvalue="Applet.DrilboorDing" />
       <item itemvalue="Application.LijnenEnRechthoeken" />
       <item itemvalue="Application.Naamachter" />
+      <item itemvalue="Applet.zoeken" />
+      <item itemvalue="Applet.sorting" />
+      <item itemvalue="Applet.opdracht1h12" />
+      <item itemvalue="Applet.opdracht2h12" />
       <item itemvalue="Applet.arraytest" />
-      <item itemvalue="Applet.PraktijkopdrachtH11A..." />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Applet.PraktijkopdrachtH11A..." />
-        <item itemvalue="Applet.PraktijkopdrachtH11B" />
+        <item itemvalue="Applet.opdracht2h12" />
         <item itemvalue="Applet.arraytest" />
-        <item itemvalue="Applet.DrilboorDing" />
-        <item itemvalue="Applet.PraktijkopdrachtH11A" />
+        <item itemvalue="Applet.opdracht1h12" />
+        <item itemvalue="Applet.sorting" />
+        <item itemvalue="Applet.zoeken" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +262,7 @@
       <workItem from="1600245225365" duration="4734000" />
       <workItem from="1600409735981" duration="7725000" />
       <workItem from="1600420133947" duration="8597000" />
-      <workItem from="1600669294478" duration="4101000" />
+      <workItem from="1600669294478" duration="11530000" />
     </task>
     <task id="LOCAL-00001" summary="H2 spul">
       <created>1599486608933</created>
@@ -486,14 +488,20 @@
       <option name="project" value="LOCAL" />
       <updated>1600436511005</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Praktijkopdracht H11 helemaal af met Nesten!">
+      <created>1600676184131</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1600676184131</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H2 spul" />
     <MESSAGE value="H5 opdracht 1 van java" />
     <MESSAGE value="H5 opdracht 2 van java" />
     <MESSAGE value="H5 opdracht 2 van java synchroon maken tussen laptop en desktop (hopelijk fixt dit het voor eens en altijd)" />
@@ -518,41 +526,46 @@
     <MESSAGE value="Gerommeld met nesten Opdracht 9 kwam bijna nergens" />
     <MESSAGE value="Praktijkopdracht H11 half af" />
     <MESSAGE value="Praktijkopdracht H11 helemaal af" />
-    <option name="LAST_COMMIT_MESSAGE" value="Praktijkopdracht H11 helemaal af" />
+    <MESSAGE value="Praktijkopdracht H11 helemaal af met Nesten!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Praktijkopdracht H11 helemaal af met Nesten!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599568660810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599568660810" />
+    <state x="909" y="409" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1600676125617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="909" y="409" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600676125617" />
     <state x="922" y="421" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1600669922271">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="421" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600669922271" />
-    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1600436510147">
+    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1600676183131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600436510147" />
+    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600676183131" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599721015416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599721015416" />
-    <state width="1340" height="117" key="GridCell.Tab.0.bottom" timestamp="1600672562381">
+    <state width="1340" height="117" key="GridCell.Tab.0.bottom" timestamp="1600683787545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600672562381" />
-    <state width="1340" height="117" key="GridCell.Tab.0.center" timestamp="1600672562381">
+    <state width="1340" height="117" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600683787545" />
+    <state width="1340" height="117" key="GridCell.Tab.0.center" timestamp="1600683787545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600672562381" />
-    <state width="1340" height="117" key="GridCell.Tab.0.left" timestamp="1600672562381">
+    <state width="1340" height="117" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600683787545" />
+    <state width="1340" height="117" key="GridCell.Tab.0.left" timestamp="1600683787545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600672562381" />
-    <state width="1340" height="117" key="GridCell.Tab.0.right" timestamp="1600672562381">
+    <state width="1340" height="117" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600683787545" />
+    <state width="1340" height="117" key="GridCell.Tab.0.right" timestamp="1600683787545">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600672562381" />
+    <state width="1340" height="117" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600683787545" />
     <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1599573704308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -581,10 +594,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599555532974" />
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600436513134">
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600676186652">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600436513134" />
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600676186652" />
     <state x="342" y="204" key="new project wizard" timestamp="1599488865459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
