@@ -3,7 +3,6 @@ package h12.opdrachtenh12;
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.*;
-import java.util.*;
 
 public class opdracht4h12 extends Applet {
     TextField a;

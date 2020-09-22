@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="H12 opdracht 4">
-      <change afterPath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht4h12.java" afterDir="false" />
+    <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht5h12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht6h12.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht4h12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h12/opdrachtenh12/opdracht4h12.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
       <recent name="C:\Users\sande\Documents\GitHub\inleiding-java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Applet.opdracht4h12">
+  <component name="RunManager" selected="Applet.opdracht6h12">
     <configuration name="Bogen" type="Applet">
       <option name="MAIN_CLASS_NAME" value="h04.Bogen" />
       <module name="inleiding-java" />
@@ -134,13 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="atest" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.h12test.atest" />
-      <module name="inleiding-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="opdracht3h12" type="Applet" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="h12.opdrachtenh12.opdracht3h12" />
       <module name="inleiding-java" />
@@ -148,15 +143,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opdracht3h12opslag" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.h12test.opdracht3h12opslag" />
+    <configuration name="opdracht4h12" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.opdrachtenh12.opdracht4h12" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opdracht4h12" type="Applet" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="h12.opdrachtenh12.opdracht4h12" />
+    <configuration name="opdracht5h12" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.opdrachtenh12.opdracht5h12" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opdracht6h12" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h12.opdrachtenh12.opdracht6h12" />
       <module name="inleiding-java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -208,20 +210,20 @@
       <item itemvalue="Applet.Naam" />
       <item itemvalue="Applet.Naamachter" />
       <item itemvalue="Applet.opdracht3h12" />
-      <item itemvalue="Applet.atest" />
-      <item itemvalue="Applet.opdracht3h12opslag" />
       <item itemvalue="Application.LijnenEnRechthoeken" />
       <item itemvalue="Application.Naamachter" />
       <item itemvalue="Applet.opdracht4h12" />
       <item itemvalue="Applet.zoeken" />
+      <item itemvalue="Applet.opdracht5h12" />
+      <item itemvalue="Applet.opdracht6h12" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Applet.opdracht6h12" />
+        <item itemvalue="Applet.opdracht5h12" />
         <item itemvalue="Applet.opdracht4h12" />
         <item itemvalue="Applet.zoeken" />
         <item itemvalue="Applet.opdracht3h12" />
-        <item itemvalue="Applet.opdracht3h12opslag" />
-        <item itemvalue="Applet.atest" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +259,7 @@
       <workItem from="1600420133947" duration="8597000" />
       <workItem from="1600669294478" duration="20847000" />
       <workItem from="1600697972260" duration="170000" />
-      <workItem from="1600757171384" duration="6256000" />
+      <workItem from="1600757171384" duration="11426000" />
     </task>
     <task id="LOCAL-00001" summary="H2 spul">
       <created>1599486608933</created>
@@ -511,14 +513,20 @@
       <option name="project" value="LOCAL" />
       <updated>1600698134980</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="H12 opdracht 4 af">
+      <created>1600765387151</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1600765387151</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="opdracht1 en 2 van h6 af 3 bezig" />
     <MESSAGE value="H6 af" />
     <MESSAGE value="Super paint spul" />
     <MESSAGE value="H8 dingen met buttons en textvakken" />
@@ -543,7 +551,8 @@
     <MESSAGE value="H12 opdracht 1 + 2 af" />
     <MESSAGE value="H12 opdracht 3 af" />
     <MESSAGE value="H12 opdracht 3 code verplaatst" />
-    <option name="LAST_COMMIT_MESSAGE" value="H12 opdracht 3 code verplaatst" />
+    <MESSAGE value="H12 opdracht 4 af" />
+    <option name="LAST_COMMIT_MESSAGE" value="H12 opdracht 4 af" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599568660810">
@@ -558,46 +567,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="421" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600669922271" />
-    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1600765291732">
+    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1600765386319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600765291732" />
+    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600765386319" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599721015416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599721015416" />
-    <state width="1340" height="217" key="GridCell.Tab.0.bottom" timestamp="1600765357781">
+    <state width="1340" height="215" key="GridCell.Tab.0.bottom" timestamp="1600770808983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="217" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600765357781" />
-    <state width="1340" height="217" key="GridCell.Tab.0.center" timestamp="1600765357781">
+    <state width="1340" height="215" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600770808983" />
+    <state width="1340" height="215" key="GridCell.Tab.0.center" timestamp="1600770808983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="217" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600765357781" />
-    <state width="1340" height="217" key="GridCell.Tab.0.left" timestamp="1600765357781">
+    <state width="1340" height="215" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600770808983" />
+    <state width="1340" height="215" key="GridCell.Tab.0.left" timestamp="1600770808982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="217" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600765357781" />
-    <state width="1340" height="217" key="GridCell.Tab.0.right" timestamp="1600765357781">
+    <state width="1340" height="215" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600770808982" />
+    <state width="1340" height="215" key="GridCell.Tab.0.right" timestamp="1600770808983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="217" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600765357781" />
-    <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1599573704308">
+    <state width="1340" height="215" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600770808983" />
+    <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1600767173720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599573704308" />
-    <state width="1340" height="327" key="GridCell.Tab.1.center" timestamp="1599573704307">
+    <state width="1340" height="327" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600767173720" />
+    <state width="1340" height="327" key="GridCell.Tab.1.center" timestamp="1600767173720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599573704307" />
-    <state width="1340" height="327" key="GridCell.Tab.1.left" timestamp="1599573704307">
+    <state width="1340" height="327" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600767173720" />
+    <state width="1340" height="327" key="GridCell.Tab.1.left" timestamp="1600767173720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599573704307" />
-    <state width="1340" height="327" key="GridCell.Tab.1.right" timestamp="1599573704308">
+    <state width="1340" height="327" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600767173720" />
+    <state width="1340" height="327" key="GridCell.Tab.1.right" timestamp="1600767173720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="327" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599573704308" />
+    <state width="1340" height="327" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600767173720" />
     <state x="686" y="286" key="MultipleFileMergeDialog" timestamp="1599650006488">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -610,10 +619,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599555532974" />
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600698136134">
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600765388808">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600698136134" />
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600765388808" />
     <state x="636" y="250" width="980" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600696472386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
