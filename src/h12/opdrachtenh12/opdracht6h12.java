@@ -24,7 +24,7 @@ public class opdracht6h12 extends Applet {
         b = new Button("Ok");
         add(b);
         b.addActionListener(new ButtonListener());
-        label1 = new Label("type hier een getal in");
+        label1 = new Label("type hier een getal tussen de 1-10");
         add(label1);
     }
 
@@ -36,20 +36,25 @@ public class opdracht6h12 extends Applet {
 
     class ButtonListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
+            int total = 0;
             s = a.getText();
             converter = Integer.parseInt(s);
             for (int teller = 0; teller < getallen.length; teller++) {
                 if (getallen[teller] == converter ){
-                    tekst1 = "Het getal " + s + " is " + Arrays.toString(getallen) + " keer gevonden";
+                    total++;
                 }
-                else {
-                    tekst1 = "Het getal " + s + " is niet gevonden";
-                    tekst2 = "typ een getal tussen 1-10 in";
-                }
-                a.setText("");
-                repaint();
-                System.out.println(Arrays.toString(getallen));
             }
+            if (total > 0) {
+                tekst1 = "Het getal " + converter + " komt " + total + " keer voor";
+                tekst2 = "";
+            }
+            else{
+                tekst1 = "Het gezochte getal is buiten het bereik van 1-10";
+                tekst2 = "Typ alstublieft een getal in tussen 1-10";
+            }
+            a.setText("");
+            repaint();
+            System.out.println(Arrays.toString(getallen));
         }
     }
 }

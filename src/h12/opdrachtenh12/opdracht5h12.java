@@ -47,6 +47,7 @@ public class opdracht5h12 extends Applet {
                 if (result2[teller] == result) {
                     search = true;
                     x = teller;
+                    break;
                 }
                 teller++;
             }
