@@ -38,8 +38,8 @@ public class praktijkopdrachth12 extends Applet {
     public void paint(Graphics g) {
         for (int teller = 0; teller < 10; teller++) {
             //y += 20;
-            g.drawString("" + namen[teller], 65, 70);
-            g.drawString("" + nummers[teller], 200, 70);
+            g.drawString("" + namen[teller], 65, y = (20 * teller + 70));
+            g.drawString("" + nummers[teller], 200, y = (20 * teller + 70));
         }
     }
 
