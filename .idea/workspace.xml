@@ -183,15 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -260,7 +258,8 @@
       <workItem from="1600669294478" duration="20847000" />
       <workItem from="1600697972260" duration="170000" />
       <workItem from="1600757171384" duration="12808000" />
-      <workItem from="1601017119729" duration="3650000" />
+      <workItem from="1601017119729" duration="4809000" />
+      <workItem from="1601273415408" duration="1322000" />
     </task>
     <task id="LOCAL-00001" summary="H2 spul">
       <created>1599486608933</created>
@@ -542,7 +541,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600957331594</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="H12 praktijkopdracht plaatsen telefoonnummers en namen">
+      <created>1601044569178</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1601044569178</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,30 +595,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="421" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600669922271" />
-    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1600957330803">
+    <state x="564" y="88" key="CommitChangelistDialog2" timestamp="1601044568303">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600957330803" />
+    <state x="564" y="88" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601044568303" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599721015416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599721015416" />
-    <state width="1340" height="210" key="GridCell.Tab.0.bottom" timestamp="1601044314630">
+    <state width="1340" height="210" key="GridCell.Tab.0.bottom" timestamp="1601274472837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601044314630" />
-    <state width="1340" height="210" key="GridCell.Tab.0.center" timestamp="1601044314629">
+    <state width="1340" height="210" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601274472837" />
+    <state width="1340" height="210" key="GridCell.Tab.0.center" timestamp="1601274472837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601044314629" />
-    <state width="1340" height="210" key="GridCell.Tab.0.left" timestamp="1601044314629">
+    <state width="1340" height="210" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601274472837" />
+    <state width="1340" height="210" key="GridCell.Tab.0.left" timestamp="1601274472837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601044314629" />
-    <state width="1340" height="210" key="GridCell.Tab.0.right" timestamp="1601044314629">
+    <state width="1340" height="210" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601274472837" />
+    <state width="1340" height="210" key="GridCell.Tab.0.right" timestamp="1601274472837">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601044314629" />
+    <state width="1340" height="210" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601274472837" />
     <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1600778686336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -641,10 +647,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599555532974" />
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1600957333267">
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601044571075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1600957333267" />
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601044571075" />
     <state x="636" y="250" width="980" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1600696472386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -15,14 +15,13 @@ public class praktijkopdrachth12 extends Applet {
    //String tekst1, tekst2;
     String[] namen, nummers;
     int counter;
+    int aantal;
 
     public void init() {
         namen = new String[10];
         nummers = new String[10];
         counter = 0;
-        //tekst1 = "";
-        //tekst2 = "";
-        //tekstvak
+
         tekstvak1 = new TextField("", 15);
         add(tekstvak1);
         tekstvak2 = new TextField("", 15);
@@ -35,8 +34,14 @@ public class praktijkopdrachth12 extends Applet {
         add(label1);
         label2 = new Label("Typ hier de telefoonnummer");
         add(label2);
+        giveInitialValueToStringArray(namen);
+        giveInitialValueToStringArray(nummers);
     }
-
+    private void giveInitialValueToStringArray(String[] arrayToChange){
+        for (int i = 0; i < arrayToChange.length; i++){
+            arrayToChange[i] = "";
+        }
+    }
     public void paint(Graphics g) {
         for (int teller = 0; teller < 10; teller++) {
             g.drawString("" + namen[teller], 65, y = (20 * teller + 70));
@@ -47,7 +52,7 @@ public class praktijkopdrachth12 extends Applet {
     class ButtonListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
 
-
+            if (counter < 10) {
 
             s1 = tekstvak1.getText();
             s2 = tekstvak2.getText();
@@ -57,25 +62,21 @@ public class praktijkopdrachth12 extends Applet {
 
 
 
-                for (int teller = 0; teller < 10; teller++) {
-                    if (counter < 10) {
+
+
                         namen[counter] = "" + s1;
-                        nummers[teller] = "" + converter;
+                        nummers[counter] = "" + converter;
                         repaint();
                         System.out.println((Arrays.toString(namen)));
                         System.out.println((Arrays.toString(nummers)));
                         //break;
                         System.out.println((counter));
-                        System.out.println((teller));
+                        System.out.println((counter));
                         counter++;
 
                         //System.out.println((tekst1));
                         //System.out.println((tekst2));
-                    }
-                    else {
-                        System.out.println("Fail");
-                    }
-                }
+            }
         }
     }
 }
