@@ -12,10 +12,8 @@ public class praktijkopdrachth12 extends Applet {
     TextField tekstvak1, tekstvak2;
     Label label1, label2;
     String s1, s2;
-   //String tekst1, tekst2;
     String[] namen, nummers;
     int counter;
-    int aantal;
 
     public void init() {
         namen = new String[10];
@@ -34,9 +32,11 @@ public class praktijkopdrachth12 extends Applet {
         add(label1);
         label2 = new Label("Typ hier de telefoonnummer");
         add(label2);
+        //declaratie van de twee variabelen
         giveInitialValueToStringArray(namen);
         giveInitialValueToStringArray(nummers);
     }
+    // zorgt ervoor dat de arrays niet null weergeven maar als een lege string vergeven
     private void giveInitialValueToStringArray(String[] arrayToChange){
         for (int i = 0; i < arrayToChange.length; i++){
             arrayToChange[i] = "";
@@ -59,9 +59,6 @@ public class praktijkopdrachth12 extends Applet {
             tekstvak1.setText("");
             tekstvak2.setText("");
             converter = Integer.parseInt(s2);
-
-
-
 
 
                         namen[counter] = "" + s1;
