@@ -23,12 +23,12 @@ public class opdracht2h13 extends Applet{
     private void aRedGreatWall(Graphics g, int x1, int y1, int width, int height) {
         for (int loop = 0; loop < 4; loop++) {
             x1 = 50;
+            y1 = (height * loop + 100);
             for (int row = 0; row < 8; row++) {
                 g.setColor(Color.red);
                 g.fillRect(x1, y1, width, height);
                 g.setColor(Color.black);
                 g.drawRect(x1, y1, width, height);
-                y1 = (height * loop + 120);
                 x1 += width;
             }
         }
