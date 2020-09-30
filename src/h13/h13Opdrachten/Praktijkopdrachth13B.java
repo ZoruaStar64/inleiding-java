@@ -10,7 +10,6 @@ public class Praktijkopdrachth13B extends Applet {
 
     }
     public void paint(Graphics g) {
-
         for (int loop = 0; loop < 2; loop++) {
 
             for (int row = 0; row < 5; row++) {

@@ -6,6 +6,8 @@ import java.applet.*;
 public class Opdracht4 extends Applet {
 
     public void init() {
+
+        new Opdracht3();
     }
 
     public void paint(Graphics g) {
@@ -13,7 +15,7 @@ public class Opdracht4 extends Applet {
         super.paint(g);
         Graphics2D g2 = (Graphics2D) g;
         g2.setStroke(new BasicStroke(3));
-        g.setColor(Color.BLACK);
+        g.setColor(new Color(79, 49, 58));
         g.drawLine(30, 20, 30, 270);
         g.drawLine(30,270, 300,270);
         g2.setStroke(new BasicStroke(1));
