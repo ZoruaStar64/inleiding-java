@@ -5,10 +5,10 @@ import java.applet.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-// doel: zorg ervoor dat je een applet maakt die een van de vele speelkaarten deelt (52 + 3 jokers)
-// dit die je door de math.random methode te gebruiken met een if statement
-// probeer dit met arrays te doen
-public class opdracht1h14 extends Applet {
+// doel: zorg ervoor dat je een applet maakt die 10 speelkaarten deelt (52 + 3 jokers)
+// daarna doe je dat voor 3 andere personen nogmaals
+// dit zou mogelijk kunnen zijn met twee for loops
+public class opdracht2h14 extends Applet {
     String card;
     Button button;
     Label label;
@@ -49,11 +49,11 @@ public class opdracht1h14 extends Applet {
             }
 
             if (theChosenOne == 1) {
-            card = "Spade " + Spade[onetothirteen];
+                card = "Spade " + Spade[onetothirteen];
             }
 
             else if (theChosenOne == 2) {
-            card = "Heart " + Heart[onetothirteen];
+                card = "Heart " + Heart[onetothirteen];
             }
 
             else if (theChosenOne == 3) {
@@ -61,11 +61,11 @@ public class opdracht1h14 extends Applet {
             }
 
             else if (theChosenOne == 4) {
-            card = "Clover " + Clover[onetothirteen];
+                card = "Clover " + Clover[onetothirteen];
             }
 
             else if (theChosenOne == 5) {
-            card = "" + Jokers[onetothree];
+                card = "" + Jokers[onetothree];
             }
             repaint();
         }
