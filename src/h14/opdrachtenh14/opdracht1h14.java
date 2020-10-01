@@ -38,41 +38,41 @@ public class opdracht1h14 extends Applet {
     public class CardListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             theChosenOne = (int) (Math.random() * 5 + 1);
-            System.out.println(theChosenOne);
+            //System.out.println(theChosenOne);
 
-            if (theChosenOne == 5 && onetothree == 0) {
-                onetothree = (int) (Math.random() * 4);
+            if (theChosenOne == 5) {
+                onetothree = (int) (Math.random() * 3);
                 System.out.println(onetothree);
             }
 
-            if ( theChosenOne < 5 && onetothirteen == 0) {
-                onetothirteen = (int) (Math.random() * 14);
+            if ( theChosenOne < 5) {
+                onetothirteen = (int) (Math.random() * 13);
                 System.out.println(onetothirteen);
             }
 
             if (theChosenOne == 1) {
-                System.out.println(Arrays.toString(Spade));
-                System.out.println(card);
+                //System.out.println(Arrays.toString(Spade));
+                //System.out.println(card);
             card = "Spade " + Spade[onetothirteen];
             }
             else if (theChosenOne == 2) {
-                System.out.println(Arrays.toString(Heart));
-                System.out.println(card);
+               // System.out.println(Arrays.toString(Heart));
+                //System.out.println(card);
             card = "Heart " + Heart[onetothirteen];
             }
             else if (theChosenOne == 3) {
-                System.out.println(Arrays.toString(Diamond));
-                System.out.println(card);
+                //System.out.println(Arrays.toString(Diamond));
+                //System.out.println(card);
                 card = "Diamond " + Diamond[onetothirteen];
             }
             else if (theChosenOne == 4) {
-                System.out.println(Arrays.toString(Clover));
-                System.out.println(card);
+                //System.out.println(Arrays.toString(Clover));
+                //System.out.println(card);
             card = "Clover " + Clover[onetothirteen];
             }
             else if (theChosenOne == 5) {
-                System.out.println(Arrays.toString(Jokers));
-                System.out.println(card);
+                //System.out.println(Arrays.toString(Jokers));
+                //System.out.println(card);
             card = "" + Jokers[onetothree];
             }
             repaint();
