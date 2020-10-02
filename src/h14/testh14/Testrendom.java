@@ -3,7 +3,7 @@ package h14.testh14;
 import java.awt.*;
 import java.applet.*;
 
-public class Random extends Applet {
+public class Testrendom extends Applet {
 
     double r;
     int worp;
@@ -16,4 +16,5 @@ public class Random extends Applet {
     public void paint(Graphics g) {
         g.drawString("" + worp, 50, 60 );
     }
+
 }
