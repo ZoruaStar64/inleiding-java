@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DevelopingFiles/Coin.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DevelopingFiles/coin.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/h14/opdrachtenh14/praktijkopdrachth14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/opdrachtenh14/praktijkopdrachth14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -268,14 +266,7 @@
       <workItem from="1601448022680" duration="3486000" />
       <workItem from="1601622791734" duration="11145000" />
       <workItem from="1601650034435" duration="151000" />
-      <workItem from="1601879136023" duration="8578000" />
-    </task>
-    <task id="LOCAL-00005" summary="H5 opdracht 1 van java">
-      <created>1599642713866</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1599642713866</updated>
+      <workItem from="1601879136023" duration="11760000" />
     </task>
     <task id="LOCAL-00006" summary="H5 opdracht 2 van java">
       <created>1599647933572</created>
@@ -613,14 +604,20 @@
       <option name="project" value="LOCAL" />
       <updated>1601889720798</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="definitieve plaatjes/soundfiles + basis van Praktijkopdracht klaar">
+      <created>1601900078530</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1601900078530</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="H11 Opdracht 9 af" />
     <MESSAGE value="H11 opdr 1 en 3 af" />
     <MESSAGE value="Gerommeld met nesten Opdracht 9 kwam bijna nergens" />
     <MESSAGE value="Praktijkopdracht H11 half af" />
@@ -645,7 +642,8 @@
     <MESSAGE value="H14 opdracht 2 speler 1-4 wordt geshowed met 10 kaarten moet alleen nog voor zorgen dat ze verschillende kaarten krijgen en geen dubbele kaarten kunnen hebben in het spel" />
     <MESSAGE value="H14 opdracht 2 af met veel hulp van Jorn" />
     <MESSAGE value="een jpg/sound map gemaakt en begonnen met de praktijk opdracht van H14" />
-    <option name="LAST_COMMIT_MESSAGE" value="een jpg/sound map gemaakt en begonnen met de praktijk opdracht van H14" />
+    <MESSAGE value="definitieve plaatjes/soundfiles + basis van Praktijkopdracht klaar" />
+    <option name="LAST_COMMIT_MESSAGE" value="definitieve plaatjes/soundfiles + basis van Praktijkopdracht klaar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599568660810">
@@ -660,30 +658,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="421" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601291576554" />
-    <state x="740" y="102" width="768" height="864" key="CommitChangelistDialog2" timestamp="1601889719646">
+    <state x="740" y="102" width="768" height="864" key="CommitChangelistDialog2" timestamp="1601900077660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="102" width="768" height="864" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601889719646" />
+    <state x="740" y="102" width="768" height="864" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601900077660" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599721015416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1599721015416" />
-    <state width="1340" height="211" key="GridCell.Tab.0.bottom" timestamp="1601899126044">
+    <state width="1340" height="211" key="GridCell.Tab.0.bottom" timestamp="1601904236937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601899126044" />
-    <state width="1340" height="211" key="GridCell.Tab.0.center" timestamp="1601899126044">
+    <state width="1340" height="211" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601904236937" />
+    <state width="1340" height="211" key="GridCell.Tab.0.center" timestamp="1601904236937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="211" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601899126044" />
-    <state width="1340" height="211" key="GridCell.Tab.0.left" timestamp="1601899126043">
+    <state width="1340" height="211" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601904236937" />
+    <state width="1340" height="211" key="GridCell.Tab.0.left" timestamp="1601904236937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="211" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601899126043" />
-    <state width="1340" height="211" key="GridCell.Tab.0.right" timestamp="1601899126044">
+    <state width="1340" height="211" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601904236937" />
+    <state width="1340" height="211" key="GridCell.Tab.0.right" timestamp="1601904236937">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="211" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601899126044" />
+    <state width="1340" height="211" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601904236937" />
     <state width="1340" height="327" key="GridCell.Tab.1.bottom" timestamp="1600778686336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -712,10 +710,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601380251916" />
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601889722393">
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601900085454">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601889722393" />
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601900085454" />
     <state x="636" y="250" width="980" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601544246329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

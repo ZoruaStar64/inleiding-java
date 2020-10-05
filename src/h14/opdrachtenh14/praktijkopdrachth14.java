@@ -17,6 +17,7 @@ public class praktijkopdrachth14 extends Applet {
     Button button;
     TextField tekstvak;
     Label label;
+    int aantal = 23;
 
     public void init() {
 
@@ -38,8 +39,19 @@ public class praktijkopdrachth14 extends Applet {
     }
     public void paint(Graphics g) {
         //LoseSound.play();
-        g.drawImage(coin,80,80,40,50,this);
+        resize(400,300);
+        int j = 1;
+        int k = 1;
+        for ( int i = 1; i <= aantal; i++) {
+            k++;
+            g.drawImage(coin, (40 * k + 20), (50 * j ), 40, 50, this);
+            if (i % 5 == 0) {
+                j++;
+                k = 1;
+            }
+        }
     }
+
 
     public class Subtractionlistener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
