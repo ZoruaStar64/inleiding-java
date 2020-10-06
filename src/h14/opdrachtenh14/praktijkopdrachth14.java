@@ -5,18 +5,19 @@ import java.applet.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.net.URL;
-import java.util.Arrays;
 import java.util.Random;
 
 public class praktijkopdrachth14 extends Applet {
 
+    private Image selectedimage;
     private Image coin;
     private Image Lose;
     private Image Win;
     private URL pad;
     private AudioClip LoseSound;
     private AudioClip WinSound;
-    Button button;
+    Button takebutton;
+    Button restartbutton;
     TextField tekstvak;
     Label label;
     int aantal = 23;
@@ -34,24 +35,28 @@ public class praktijkopdrachth14 extends Applet {
         WinSound = getAudioClip(pad, "rotten-day.wav");
         LoseSound = getAudioClip(pad, "i-win.wav");
         coin = getImage(pad, "Coin.png");
-        Lose = getImage(pad, "Wario-wins.jpg");
-        Win = getImage(pad, "Wario-loses.jpg");
-        button = new Button("Take");
+        Lose = getImage(pad, "Wario-Wins.jpg");
+        Win = getImage(pad, "Wario-loses.png");
+        takebutton = new Button("Take");
+        restartbutton = new Button("Restart");
         tekstvak = new TextField();
         label = new Label("Take 1, 2 or 3 coins");
-        button.addActionListener(new Subtractionlistener());
+        takebutton.addActionListener(new Subtractionlistener());
         tekstvak.addActionListener(new Subtractionlistener());
-        add(button);
+        restartbutton.addActionListener(new Resetlistener());
+        add(restartbutton);
+        add(takebutton);
         add(tekstvak);
         add(label);
         Botchoices = new String[3];
-
+        restartbutton.setBackground(Color.red);
     }
     public void paint(Graphics g) {
         //LoseSound.play();
         resize(400,400);
-        g.drawString("" + Errortext, 105,50);
         g.drawString("" + humantext, 105,50);
+        g.drawString("" + Errortext, 105,50);
+
         g.drawString("" + computertext, 105, 65);
         g.drawString("The total of remaining coins = " + aantal, 105, 80);
         int j = 1;
@@ -64,6 +69,7 @@ public class praktijkopdrachth14 extends Applet {
                 k = 1;
             }
         }
+        g.drawImage(selectedimage, 100,100,100,100, this);
     }
 
 
@@ -72,47 +78,71 @@ public class praktijkopdrachth14 extends Applet {
             // De menselijke speler's input
             grabber = tekstvak.getText();
             converter = Integer.parseInt(grabber);
-
+            for (int fakeloop = 0; fakeloop == 0; fakeloop++) {
                 PlayerTurn = true;
-                if (converter == 1) {
+                if (converter == 1 || converter == 2 || converter == 3) {
                     aantal = aantal - converter;
-                    humantext = "You took 1 coin";
+                    humantext = "You took " + converter + " coin(s)";
                     Errortext = "";
+                } else {
+                    humantext = "";
+                    Errortext = "Use the numbers 1, 2 or 3";
+                    computertext = "";
+                    repaint();
+                    break;
                 }
-           else if (converter == 2) {
-                aantal = aantal - converter;
-                    humantext = "You took 2 coin";
-                    Errortext = "";
+                System.out.println(aantal);
+                // Wario's beurt
+
+                if (aantal == 0 && !PlayerTurn) {
+                    LoseSound.play();
+                    selectedimage = Lose;
+                    repaint();
+                    break;
+                }
+                PlayerTurn = false;
+                int random = new Random().nextInt(Botchoices.length);
+                if (aantal == 1) {
+                aantal = aantal - 1;
+                computertext = "Wario took 1 coin";
+                }
+                else if (aantal == 2) {
+                    aantal = aantal - 1;
+                    computertext = "Wario took 1 coin";
+                }
+                else if (aantal == 3) {
+                    aantal = aantal - 2;
+                    computertext = "Wario took 2 coins";
+                }
+                else if (!PlayerTurn) {
+                    aantal = aantal - (random + 1);
+                    computertext = "Wario took " + "" + (random + 1) + " coin(s)";
+                    System.out.println(aantal);
+                }
+                PlayerTurn = true;
+                if (aantal < 0) {
+                    aantal = 0;
+                    break;
+                }
+                repaint();
+
+                if (aantal == 0 && PlayerTurn) {
+                    WinSound.play();
+                    selectedimage = Win;
+                    repaint();
+                    break;
+                }
             }
-           else if (converter == 3) {
-                aantal = aantal - converter;
-                    humantext = "You took 3 coin";
-                    Errortext = "";
-            }
-            else {
-                Errortext = "Use the numbers 1, 2 or 3";
-                humantext = "";
-            }
-            System.out.println(aantal);
-            // Wario's beurt
-            PlayerTurn = false;
-            int random = new Random().nextInt(Botchoices.length);
-            if (!PlayerTurn) {
-                aantal = aantal - (random + 1);
-                computertext = "Wario took " + "" + random + " coin(s)";
-                Errortext = "";
-            }
-            PlayerTurn = true;
-            if (aantal < 0) {
-                aantal = 0;
-            }
-            repaint();
-        if (aantal == 0 && !PlayerTurn) {
-            LoseSound.play();
-            }
-        else if (aantal == 0 && PlayerTurn) {
-            WinSound.play();
         }
+    }
+    public class Resetlistener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+            aantal = 23;
+            computertext = "";
+            humantext = "";
+            Errortext = "";
+            selectedimage = null;
+            repaint();
         }
     }
 }
