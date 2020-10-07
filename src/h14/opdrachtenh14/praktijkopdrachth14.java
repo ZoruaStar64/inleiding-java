@@ -36,7 +36,7 @@ public class praktijkopdrachth14 extends Applet {
         WinSound = getAudioClip(pad, "rotten-day.wav");
         LoseSound = getAudioClip(pad, "i-win.wav");
         coin = getImage(pad, "Coin.png");
-        Lose = getImage(pad, "Wario-Wins.jpg");
+        Lose = getImage(pad, "Wario-Wins.png");
         Win = getImage(pad, "Wario-loses.png");
         takebutton = new Button("Take");
         restartbutton = new Button("Restart");
@@ -58,7 +58,7 @@ public class praktijkopdrachth14 extends Applet {
         g.drawString("" + humantext, 105,55);
         g.drawString("" + Errortext, 105,55);
         g.drawString("" + computertext, 105, 70);
-        g.drawString("" + winorlose, 105, 230);
+        g.drawString("" + winorlose, 105, 300);
         g.drawString("The rules are simple: don't be the one that grabs the last coin!", 50,40);
         g.drawString("The total of remaining coins = " + aantal, 105, 85);
         int j = 1;
@@ -71,7 +71,7 @@ public class praktijkopdrachth14 extends Applet {
                 k = 1;
             }
         }
-        g.drawImage(selectedimage, 100,100,100,100, this);
+        g.drawImage(selectedimage, 100,100,150,150, this);
     }
 
 
@@ -117,19 +117,34 @@ public class praktijkopdrachth14 extends Applet {
                 computertext = "Wario took 1 coin";
                     System.out.println(aantal);
                 }
-                else if (aantal == 2) {
-                    aantal = aantal - 1;
-                    computertext = "Wario took 1 coin";
+                else if (aantal == 2 || aantal == 3 || aantal == 4) {
+                    computertext = "Wario took " + "" + (aantal - 1) + " coin";
+                    aantal = 1;
                     System.out.println(aantal);
                 }
-                else if (aantal == 3) {
-                    aantal = aantal - 2;
-                    computertext = "Wario took 2 coins";
+                else if (aantal == 6 || aantal == 7 || aantal == 8) {
+                    computertext = "Wario took " + "" + (aantal - 5) + " coins";
+                    aantal = 5;
                     System.out.println(aantal);
                 }
-                else if (aantal == 4) {
-                    aantal = aantal - 3;
-                    computertext = "Wario took 3 coins";
+                else if (aantal == 10 || aantal == 11 || aantal == 12) {
+                    computertext = "Wario took " + "" + (aantal - 9) + " coins";
+                    aantal = 9;
+                    System.out.println(aantal);
+                }
+                else if (aantal == 14 || aantal == 15 || aantal == 16) {
+                    computertext = "Wario took " + "" + (aantal - 13) + " coins";
+                    aantal = 13;
+                    System.out.println(aantal);
+                }
+                else if (aantal == 18 || aantal == 19 || aantal == 20) {
+                    computertext = "Wario took " + "" + (aantal - 17) + " coins";
+                    aantal = 17;
+                    System.out.println(aantal);
+                }
+                else if (aantal == 22) {
+                    computertext = "Wario took " + "" + (aantal - 21) + " coins";
+                    aantal = 21;
                     System.out.println(aantal);
                 }
                 else if (!PlayerTurn) {
