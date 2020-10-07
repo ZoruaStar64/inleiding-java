@@ -54,11 +54,11 @@ public class praktijkopdrachth14 extends Applet {
     public void paint(Graphics g) {
         //LoseSound.play();
         resize(400,400);
-        g.drawString("" + humantext, 105,50);
-        g.drawString("" + Errortext, 105,50);
-
-        g.drawString("" + computertext, 105, 65);
-        g.drawString("The total of remaining coins = " + aantal, 105, 80);
+        g.drawString("" + humantext, 105,55);
+        g.drawString("" + Errortext, 105,55);
+        g.drawString("" + computertext, 105, 70);
+        g.drawString("The rules are simple: don't be the one that grabs the last coin!", 50,40);
+        g.drawString("The total of remaining coins = " + aantal, 105, 85);
         int j = 1;
         int k = 1;
         for ( int i = 1; i <= aantal; i++) {
@@ -113,6 +113,10 @@ public class praktijkopdrachth14 extends Applet {
                 else if (aantal == 3) {
                     aantal = aantal - 2;
                     computertext = "Wario took 2 coins";
+                }
+                else if (aantal == 4) {
+                    aantal = aantal - 3;
+                    computertext = "Wario took 3 coins";
                 }
                 else if (!PlayerTurn) {
                     aantal = aantal - (random + 1);
