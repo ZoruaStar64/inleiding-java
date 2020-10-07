@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7047d6f3-bd78-4f16-aa02-19cde9e79e12" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/h14/opdrachtenh14/praktijkopdrachth14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h14/opdrachtenh14/praktijkopdrachth14.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,17 +183,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Applet.LijnenEnRechthoeken" />
       <item itemvalue="Applet.ElipsEnBoog" />
@@ -268,14 +256,8 @@
       <workItem from="1601650034435" duration="151000" />
       <workItem from="1601879136023" duration="11804000" />
       <workItem from="1601905732065" duration="464000" />
-      <workItem from="1601969522113" duration="13340000" />
-    </task>
-    <task id="LOCAL-00008" summary="H5 opdracht 2 van java">
-      <created>1599721370219</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1599721370219</updated>
+      <workItem from="1601969522113" duration="13688000" />
+      <workItem from="1602053535190" duration="720000" />
     </task>
     <task id="LOCAL-00009" summary="H5 opdracht 2 van java synchroon maken tussen laptop en desktop (hopelijk fixt dit het voor eens en altijd)">
       <created>1599722845495</created>
@@ -613,14 +595,20 @@
       <option name="project" value="LOCAL" />
       <updated>1601976533847</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="de bot is ietsje slimmer">
+      <created>1601988622183</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1601988622183</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Praktijkopdracht H11 half af" />
     <MESSAGE value="Praktijkopdracht H11 helemaal af" />
     <MESSAGE value="Praktijkopdracht H11 helemaal af met Nesten!" />
     <MESSAGE value="H12 opdracht 1 + 2 af" />
@@ -645,7 +633,8 @@
     <MESSAGE value="definitieve plaatjes/soundfiles + basis van Praktijkopdracht klaar" />
     <MESSAGE value="Praktijkopdracht H14 half klaar" />
     <MESSAGE value="Basis van H14 praktijkopdracht af&#10;nu de bot slimmer maken en plaatjes d'r bij" />
-    <option name="LAST_COMMIT_MESSAGE" value="Basis van H14 praktijkopdracht af&#10;nu de bot slimmer maken en plaatjes d'r bij" />
+    <MESSAGE value="de bot is ietsje slimmer" />
+    <option name="LAST_COMMIT_MESSAGE" value="de bot is ietsje slimmer" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="0" width="1092" height="1040" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599568660810">
@@ -660,10 +649,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="421" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601291576554" />
-    <state x="740" y="102" width="768" height="864" key="CommitChangelistDialog2" timestamp="1601976532949">
+    <state x="740" y="102" width="768" height="864" key="CommitChangelistDialog2" timestamp="1601988621370">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="102" width="768" height="864" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601976532949" />
+    <state x="740" y="102" width="768" height="864" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601988621370" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1599721015416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -712,10 +701,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601380251916" />
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601976535500">
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2" timestamp="1601988623859">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601976535500" />
+    <state x="640" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1601988623859" />
     <state x="636" y="250" width="980" height="630" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601544246329">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
