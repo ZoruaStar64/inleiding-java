@@ -25,7 +25,7 @@ public class praktijkopdrachth14 extends Applet {
     String Errortext = "";
     String humantext = "This will tell how many coins you took last round";
     String computertext = "This will tell how many coins Wario took last round";
-    String winorlose = "";
+    String winorlose1, winorlose2 = "";
     String[] Botchoices;
     int converter;
     boolean PlayerTurn;
@@ -58,7 +58,8 @@ public class praktijkopdrachth14 extends Applet {
         g.drawString("" + humantext, 105,55);
         g.drawString("" + Errortext, 105,55);
         g.drawString("" + computertext, 105, 70);
-        g.drawString("" + winorlose, 105, 300);
+        g.drawString("" + winorlose1, 105, 300);
+        g.drawString("" + winorlose2, 105, 315);
         g.drawString("The rules are simple: don't be the one that grabs the last coin!", 50,40);
         g.drawString("The total of remaining coins = " + aantal, 105, 85);
         int j = 1;
@@ -105,7 +106,8 @@ public class praktijkopdrachth14 extends Applet {
                 if (aantal == 0) {
                     LoseSound.play();
                     selectedimage = Lose;
-                    winorlose = "Wario won better luck next time!";
+                    winorlose1 = "Wario won better luck next time!";
+                    winorlose2 = "Press the red restart button to try again!";
                     repaint();
                     break;
                 }
@@ -165,7 +167,8 @@ public class praktijkopdrachth14 extends Applet {
                 if (aantal == 0 && PlayerTurn) {
                     WinSound.play();
                     selectedimage = Win;
-                    winorlose = "You won, press the red restart button to play again!";
+                    winorlose1 = "Congratulations you won!";
+                    winorlose2 = "Press the red restart button to play again!";
                     repaint();
                     break;
                 }
@@ -178,7 +181,8 @@ public class praktijkopdrachth14 extends Applet {
             computertext = "";
             humantext = "";
             Errortext = "";
-            winorlose = "";
+            winorlose1 = "";
+            winorlose2 = "";
             selectedimage = null;
             repaint();
         }
