@@ -25,7 +25,8 @@ public class praktijkopdrachth14 extends Applet {
     String Errortext = "";
     String humantext = "This will tell how many coins you took last round";
     String computertext = "This will tell how many coins Wario took last round";
-    String winorlose1, winorlose2 = "";
+    String winorlose1 = "";
+    String winorlose2 = "";
     String[] Botchoices;
     int converter;
     boolean PlayerTurn;
