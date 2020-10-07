@@ -25,6 +25,7 @@ public class praktijkopdrachth14 extends Applet {
     String Errortext;
     String humantext;
     String computertext;
+    String winorlose;
     String[] Botchoices;
     int converter;
     boolean PlayerTurn;
@@ -57,6 +58,7 @@ public class praktijkopdrachth14 extends Applet {
         g.drawString("" + humantext, 105,55);
         g.drawString("" + Errortext, 105,55);
         g.drawString("" + computertext, 105, 70);
+        g.drawString("" + winorlose, 105, 230);
         g.drawString("The rules are simple: don't be the one that grabs the last coin!", 50,40);
         g.drawString("The total of remaining coins = " + aantal, 105, 85);
         int j = 1;
@@ -91,38 +93,51 @@ public class praktijkopdrachth14 extends Applet {
                     repaint();
                     break;
                 }
-                System.out.println(aantal);
-                // Wario's beurt
-
-                if (aantal == 0 && !PlayerTurn) {
+                if (aantal == 0) {
                     LoseSound.play();
                     selectedimage = Lose;
+                    winorlose = "Wario won better luck next time!";
                     repaint();
                     break;
                 }
+                System.out.println(aantal);
+                // Wario's beurt
+
+                /*if (aantal == 0 && !PlayerTurn) {
+                    LoseSound.play();
+                    selectedimage = Lose;
+                    winorlose = "Wario won better luck next time!";
+                    repaint();
+                    break;
+                }*/
                 PlayerTurn = false;
                 int random = new Random().nextInt(Botchoices.length);
                 if (aantal == 1) {
                 aantal = aantal - 1;
                 computertext = "Wario took 1 coin";
+                    System.out.println(aantal);
                 }
                 else if (aantal == 2) {
                     aantal = aantal - 1;
                     computertext = "Wario took 1 coin";
+                    System.out.println(aantal);
                 }
                 else if (aantal == 3) {
                     aantal = aantal - 2;
                     computertext = "Wario took 2 coins";
+                    System.out.println(aantal);
                 }
                 else if (aantal == 4) {
                     aantal = aantal - 3;
                     computertext = "Wario took 3 coins";
+                    System.out.println(aantal);
                 }
                 else if (!PlayerTurn) {
                     aantal = aantal - (random + 1);
                     computertext = "Wario took " + "" + (random + 1) + " coin(s)";
                     System.out.println(aantal);
                 }
+
                 PlayerTurn = true;
                 if (aantal < 0) {
                     aantal = 0;
@@ -133,6 +148,7 @@ public class praktijkopdrachth14 extends Applet {
                 if (aantal == 0 && PlayerTurn) {
                     WinSound.play();
                     selectedimage = Win;
+                    winorlose = "You won, press the red restart button to play again!";
                     repaint();
                     break;
                 }
@@ -145,6 +161,7 @@ public class praktijkopdrachth14 extends Applet {
             computertext = "";
             humantext = "";
             Errortext = "";
+            winorlose = "";
             selectedimage = null;
             repaint();
         }
