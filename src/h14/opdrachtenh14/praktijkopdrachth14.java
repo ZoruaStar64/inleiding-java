@@ -22,10 +22,10 @@ public class praktijkopdrachth14 extends Applet {
     Label label;
     int aantal = 23;
     String grabber;
-    String Errortext;
-    String humantext;
-    String computertext;
-    String winorlose;
+    String Errortext = "";
+    String humantext = "This will tell how many coins you took last round";
+    String computertext = "This will tell how many coins Wario took last round";
+    String winorlose = "";
     String[] Botchoices;
     int converter;
     boolean PlayerTurn;
@@ -82,11 +82,20 @@ public class praktijkopdrachth14 extends Applet {
             converter = Integer.parseInt(grabber);
             for (int fakeloop = 0; fakeloop == 0; fakeloop++) {
                 PlayerTurn = true;
+                if (aantal <= -1){
+                    break;
+                }
                 if (converter == 1 || converter == 2 || converter == 3) {
+                    if (aantal == 1) {
+                        converter = 1;
+                    }
                     aantal = aantal - converter;
                     humantext = "You took " + converter + " coin(s)";
                     Errortext = "";
-                } else {
+                    tekstvak.setText("");
+                }
+
+                else {
                     humantext = "";
                     Errortext = "Use the numbers 1, 2 or 3";
                     computertext = "";
@@ -103,13 +112,6 @@ public class praktijkopdrachth14 extends Applet {
                 System.out.println(aantal);
                 // Wario's beurt
 
-                /*if (aantal == 0 && !PlayerTurn) {
-                    LoseSound.play();
-                    selectedimage = Lose;
-                    winorlose = "Wario won better luck next time!";
-                    repaint();
-                    break;
-                }*/
                 PlayerTurn = false;
                 int random = new Random().nextInt(Botchoices.length);
                 if (aantal == 1) {
