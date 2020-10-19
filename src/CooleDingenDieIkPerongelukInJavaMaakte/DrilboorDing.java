@@ -2,6 +2,7 @@ package CooleDingenDieIkPerongelukInJavaMaakte;
 
 import java.applet.Applet;
 import java.awt.*;
+import java.lang.*;
 
 public class DrilboorDing extends Applet {
 
@@ -22,6 +23,11 @@ public class DrilboorDing extends Applet {
             height += 10;
             g.setFont(new Font("TimesRoman",Font.BOLD,20));
             g.drawOval(250 + x,250 + y,width ,height);
+            try {
+                Thread.sleep(10);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     }
 }
